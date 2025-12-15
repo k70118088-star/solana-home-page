@@ -27,7 +27,7 @@
 
             <img src="assets/SOLANAFFBUSINESS.png" alt="" class="w-1/4">
 
-            <ul class="hidden xl:flex gap-10 text-black text-[18px] font-medium items-center">
+            <ul class="hidden xl:flex gap-10 text-black text-[var(--text-base)] font-medium items-center">
                 <li><a href="#home" class="hover:text-[var(--accent)]">Home</a></li>
                 <li><a href="#about" class="hover:text-[var(--accent)]">About Us</a></li>
                 <li><a href="#token" class="hover:text-[var(--accent)]">Tokenomics</a></li>
@@ -39,9 +39,9 @@
                 </button>
             </ul>
             <button id="menu-btn" class="flex flex-col gap-1 xl:hidden z-[60]">
-                <span class="w-7 h-[3px] bg-black rounded transition"></span>
-                <span class="w-7 h-[3px] bg-black rounded transition"></span>
-                <span class="w-7 h-[3px] bg-black rounded transition"></span>
+                <span class="w-7 h-[3px] bg-[var(--third)] rounded transition"></span>
+                <span class="w-7 h-[3px] bg-[var(--third)] rounded transition"></span>
+                <span class="w-7 h-[3px] bg-[var(--third)] rounded transition"></span>
             </button>
         </div>
 
@@ -79,10 +79,10 @@
 
     <!--SECTION 2-->
     <section id="about" class="bg-[var(--secondary)] ">
-        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row gap-20 items-center">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row xl:gap-40 md:gap-20 gap-10 items-center">
             <div class=" flex flex-col items-start">
                 <h1 class="text-3xl md:text-4xl font-semibold">It was popularised</h1>
-                <p class="mt-4 font-normal text-[18px] opacity-80">
+                <p class="mt-4 font-normal text-[var(--text-base)] opacity-80">
                     Have you heard? We’re hiring! We have 3,333 working positions to <br>fill on the Solana blockchain.
                     Once
                     all positions are filled it’s <br>crucial to stay on your toes because the corporate penguins
@@ -98,7 +98,7 @@
                 </button>
             </div>
 
-            <img src="assets/img5.jpg" class="md:w-[45%]  shadow" />
+            <img src="assets/img5.jpg" class="md:w-[40%] md:h-[30%] shadow" />
         </div>
     </section>
 
@@ -122,24 +122,24 @@
 
     <!-- SECTION 4-->
     <section class="bg-[var(--accent)] text-white py-16 text-center">
-        <h1 class="text-4xl font-bold mb-10">Supplies</h1>
+        <h1 class="text-5xl font-bold mb-16">Supplies</h1>
 
         <div class="grid grid-cols-2 md:grid-cols-4 sm:gap-5 md:gap-10 lg:gap-22 xl:gap-32 max-w-7xl  mx-auto">
             <div>
                 <h1 class="text-5xl font-bold">3,313</h1>
-                <p class="font-normal text-[18px] opacity-80">Public Sale</p>
+                <p class="font-normal text-[var(--text-base)] opacity-80">Public Sale</p>
             </div>
             <div>
                 <h1 class="text-5xl font-bold">15</h1>
-                <p class="font-normal text-[18px] opacity-80">Community Giveaways</p>
+                <p class="font-normal text-[var(--text-base)] opacity-80">Community Giveaways</p>
             </div>
             <div>
                 <h1 class="text-5xl font-bold">5</h1>
-                <p class="font-normal text-[18px] opacity-80">Marketing / Influencers</p>
+                <p class="font-normal text-[var(--text-base)] opacity-80">Marketing / Influencers</p>
             </div>
             <div>
                 <h1 class="text-5xl font-bold">15</h1>
-                <p class="font-normal text-[18px] opacity-80">Max Supply</p>
+                <p class="font-normal text-[var(--text-base)] opacity-80">Max Supply</p>
             </div>
         </div>
     </section>
@@ -208,22 +208,22 @@
             <div >
                 <img src="assets/img1.png" alt="">
                 <h2 class="text-2xl font-bold mt-5">John Doe</h2>
-                <p class="font-normal text-[18px]">Manager</p>
+                <p class="font-normal text-[var(--text-base)]">Manager</p>
             </div>
             <div>
                 <img src="assets/img2.png" />
                 <h2 class="text-2xl font-bold mt-5">John Doe</h2>
-                <p class="font-normal text-[18px]">Manager</p>
+                <p class="font-normal text-[var(--text-base)]">Manager</p>
             </div>
             <div>
                 <img src="assets/img11.png" />
                 <h2 class="text-2xl font-bold mt-5">John Doe</h2>
-                <p class="font-normal text-[18px]">Manager</p>
+                <p class="font-normal text-[var(--text-base)]">Manager</p>
             </div>
             <div>
                 <img src="assets/img22.png" />
                 <h2 class="text-2xl font-bold mt-5">John Doe</h2>
-                <p class="font-normal text-[18px]">Manager</p>
+                <p class="font-normal text-[var(--text-base)]">Manager</p>
             </div>
         </div>
     </section>
@@ -235,71 +235,71 @@
         <div class="max-w-4xl mx-auto mt-10 space-y-4">
             <div class="bg-[var(--secondary)] p-5 cursor-pointer accordion-item active">
                 <div class="flex justify-between items-center accordion-header">
-                    <h3 class="font-medium text-black text-[18px] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
+                    <h3 class="font-medium text-[var(--third)] text-[18px] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
                         nunc.
-                    </h3> <span class="icon transition-transform duration-300 rotate-180 text-black text-2xl">
+                    </h3> <span class="icon transition-transform duration-300 rotate-180 text-[var(--third)] text-2xl">
                         <svg width="24" height="24" fill="none" stroke="black" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg> </span>
                 </div>
-                <div class="accordion-content mt-3 text-black text-[18px] font-extralight opacity-70"> Enim scelerisque quisque
+                <div class="accordion-content mt-3 text-[var(--third)] text-[var(--text-base)] font-extralight opacity-70"> Enim scelerisque quisque
                     egestas velit, eget tempus, arcu pulvinar in. Quis sed at sodales<br> aliquam. Amet
                     fermentum, lectus nulla tincidunt egestas. </div>
             </div>
             <div class="bg-[var(--secondary)] p-5 cursor-pointer accordion-item">
                 <div class="flex justify-between items-center accordion-header">
-                    <h3 class="font-medium text-black text-[18px] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
+                    <h3 class="font-medium text-[var(--third)] text-[var(--text-base)] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
                         nunc.
-                    </h3> <span class="icon transition-transform duration-300 text-black text-2xl"> <svg width="24"
+                    </h3> <span class="icon transition-transform duration-300 text-[var(--third)] text-2xl"> <svg width="24"
                             height="24" fill="none" stroke="black" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg> </span>
                 </div>
-                <div class="accordion-content hidden mt-3 text-black text-[18px] font-extralight opacity-70"> Enim scelerisque
+                <div class="accordion-content hidden mt-3 text-[var(--third)] text-[var(--text-base)] font-extralight opacity-70"> Enim scelerisque
                     quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at sodales <br>aliquam. Amet
                     fermentum, lectus nulla tincidunt egestas. </div>
             </div>
             <div class="bg-[var(--secondary)] p-5 cursor-pointer accordion-item">
                 <div class="flex justify-between items-center accordion-header">
-                    <h3 class="font-medium text-black text-[18px] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
+                    <h3 class="font-medium text-[var(--third)] text-[var(--text-base)] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
                         nunc.
-                    </h3> <span class="icon transition-transform duration-300 text-black text-2xl"><svg width="24"
+                    </h3> <span class="icon transition-transform duration-300 text-[var(--third)] text-2xl"><svg width="24"
                             height="24" fill="none" stroke="black" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg> </span>
                 </div>
-                <div class="accordion-content hidden mt-3 text-black text-[18px] font-extralight opacity-70"> Enim scelerisque
+                <div class="accordion-content hidden mt-3 text-[var(--third)] text-[var(--text-base)] font-extralight opacity-70"> Enim scelerisque
                     quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at sodales<br> aliquam. Amet
                     fermentum, lectus nulla tincidunt egestas. </div>
             </div>
             <div class="bg-[var(--secondary)] p-5 cursor-pointer accordion-item">
                 <div class="flex justify-between items-center accordion-header">
-                    <h3 class="font-medium text-black text-[18px] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
+                    <h3 class="font-medium text-[var(--third)] text-[var(--text-base)] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
                         nunc.
-                    </h3> <span class="icon transition-transform duration-300 text-black text-2xl"><svg width="24"
+                    </h3> <span class="icon transition-transform duration-300 text-[var(--third)] text-2xl"><svg width="24"
                             height="24" fill="none" stroke="black" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg> </span>
                 </div>
-                <div class="accordion-content hidden mt-3 text-black text-[18px] font-extralight opacity-70"> Enim scelerisque
+                <div class="accordion-content hidden mt-3 text-[var(--third)] text-[var(--text-base)] font-extralight opacity-70"> Enim scelerisque
                     quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at sodales <br>aliquam. Amet
                     fermentum, lectus nulla tincidunt egestas. </div>
             </div>
             <div class="bg-[var(--secondary)] p-5 cursor-pointer accordion-item">
                 <div class="flex justify-between items-center accordion-header">
-                    <h3 class="font-medium text-black text-[18px] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
+                    <h3 class="font-medium text-[var(--third)] text-[var(--text-base)] font-semibold"> Amet vel eget nisi, sed ut massa turpis sodales
                         nunc.
-                    </h3> <span class="icon transition-transform duration-300 text-black text-2xl"><svg width="24"
+                    </h3> <span class="icon transition-transform duration-300 text-[var(--third)] text-2xl"><svg width="24"
                             height="24" fill="none" stroke="black" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg> </span>
                 </div>
-                <div class="accordion-content hidden mt-3 text-black text-[18px] font-extralight opacity-70"> Enim scelerisque
+                <div class="accordion-content hidden mt-3 text-[var(--third)] text-[var(--text-base)] font-extralight opacity-70"> Enim scelerisque
                     quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at sodales <br>aliquam. Amet
                     fermentum, lectus nulla tincidunt egestas. </div>
             </div>
@@ -333,7 +333,7 @@
             </div>
         </div>
 
-        <p class="mt-5 font-extralight">@Copyright 2025</p>
+        <p class="mt-9 font-extralight">@Copyright 2025</p>
     </footer>
     <script>
         const btn = document.getElementById("menu-btn");
